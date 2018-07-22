@@ -10,7 +10,7 @@ The sample is available for three platforms:
 
 ## Screenshots
 
-<img src="images/autocapitalization.png" Width="210" /> <img src="images/autoresize-editor.png" Width="210" /> <img src="images/bottom-tabs.png" Width="210" /> <img src="images/returnkey.png" Width="210" /> <img src="images/others.png" Width="210" />
+<img src="images/autocapitalization.png" Width="210" /> <img src="images/autoresize-editor.png" Width="210" /> <img src="images/bottom-tabs.png" Width="210" /> <img src="images/returnkey.png" Width="210" /> <img src="images/evaljs.png" Width="210" /> <img src="images/others.png" Width="210" />
 
 ## Requirements
 
