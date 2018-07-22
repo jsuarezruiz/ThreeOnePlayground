@@ -96,6 +96,7 @@ namespace ThreeOnePlayground.Services.Navigation
             _mappings.Add(typeof(AutoResizeEditorViewModel), typeof(AutoResizeEditorView));
             _mappings.Add(typeof(EntryAutoCapitalizationViewModel), typeof(EntryAutoCapitalizationView));
             _mappings.Add(typeof(EntryReturnKeyViewModel), typeof(EntryReturnKeyView));
+            _mappings.Add(typeof(EvaluateJavaScriptViewModel), typeof(EvaluateJavaScriptView));
             _mappings.Add(typeof(MainViewModel), typeof(MainView));
             _mappings.Add(typeof(OthersViewModel), typeof(OthersView));
             _mappings.Add(typeof(TabsViewModel), typeof(TabsView));

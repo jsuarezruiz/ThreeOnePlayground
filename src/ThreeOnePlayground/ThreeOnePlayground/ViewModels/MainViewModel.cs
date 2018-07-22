@@ -9,6 +9,7 @@ namespace ThreeOnePlayground.ViewModels
         public ICommand AutoResizeEditorCommand => new Command(AutoResizeEditor);
         public ICommand EntryAutoCapitalizationCommand => new Command(EntryAutoCapitalization);
         public ICommand EntryReturnKeyCommand => new Command(EntryReturnKey);
+        public ICommand EvaluateJsCommand => new Command(EvaluateJs);
         public ICommand TabsCommand => new Command(Tabs);
         public ICommand OthersCommand => new Command(Others);
 
@@ -25,6 +26,11 @@ namespace ThreeOnePlayground.ViewModels
         private void EntryReturnKey()
         {
             NavigationService.NavigateToAsync<EntryReturnKeyViewModel>();
+        }
+
+        private void EvaluateJs()
+        {
+            NavigationService.NavigateToAsync<EvaluateJavaScriptViewModel>();
         }
 
         private void Tabs()

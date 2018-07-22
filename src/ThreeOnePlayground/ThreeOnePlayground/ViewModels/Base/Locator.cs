@@ -29,6 +29,7 @@ namespace ThreeOnePlayground.ViewModels.Base
             _containerBuilder.RegisterType<EntryAutoCapitalizationViewModel>();
             _containerBuilder.RegisterType<EntryReturnKeyViewModel>();
             _containerBuilder.RegisterType<MainViewModel>();
+            _containerBuilder.RegisterType<EvaluateJavaScriptViewModel>();
             _containerBuilder.RegisterType<OthersViewModel>();
             _containerBuilder.RegisterType<TabsViewModel>();
 

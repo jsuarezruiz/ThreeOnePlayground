@@ -18,6 +18,9 @@
                 Text="Bottom Tabs"
                 Command="{Binding TabsCommand}"/>
             <Button 
+                Text="Evaluate Javascript"
+                Command="{Binding EvaluateJsCommand}"/>
+            <Button 
                 Text="Others"
                 Command="{Binding OthersCommand}"/>
         </StackLayout>
